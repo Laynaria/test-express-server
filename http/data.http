@@ -1,0 +1,15 @@
+GET http://localhost:3000/
+
+### GET
+GET http://localhost:3000/data
+
+### GET 2
+GET http://localhost:3000/data/2
+
+### POST
+POST http://localhost:3000/data
+Content-Type: application/json
+
+{
+    "name": "tea cup"
+}
